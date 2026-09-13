@@ -1,0 +1,15 @@
+{
+"C_Cpp.intelliSenseEngine": "disabled",
+"clangd.path": "/usr/bin/clangd",
+"clangd.arguments": [
+"--background-index",
+"--compile-commands-dir=${workspaceFolder}/build",
+"--clang-tidy"
+],
+"cmake.configureOnOpen": true,
+"cmake.buildDirectory": "${workspaceFolder}/build",
+"files.associations": {
+"*.cpp": "cpp",
+"*.h": "cpp"
+}
+}
